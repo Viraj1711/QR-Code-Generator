@@ -1,0 +1,10 @@
+How the Code Works:
+Tkinter GUI:
+
+The Tkinter library is used to create a simple user interface where the user can input text or a URL.
+The user clicks the "Generate QR Code" button to trigger the QR code generation.
+QR Code Generation:
+
+The qrcode library is used to create the QR code.
+The QR code is saved as an image file (generated_qr_code.png) in the current directory.
+The QR code is also displayed in the default image viewer using img.show().
